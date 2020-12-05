@@ -159,6 +159,18 @@ border-bottom: 1px solid var(--color-border);
     line-height: 10px;
 } 
 
+@media screen and (max-width:500px) {
+    .skills .bars {
+        width: 50vw !important;
+        background-color: black !important;
+    }
+}
+
+.skills .bars {
+    width: 50vw !important;
+    background-color: black !important;
+}
+
 /* site main */
 
 /* interests */
@@ -214,46 +226,42 @@ footer.footer-area .social1 h5{
 .contact .info {
     width: 100%;
     background: #fff;
-  }
+}
   
-  .contact .info i {
-    font-size: 20px;
-    color: #0563bb;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #eef7ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-  }
+.contact i {
+font-size: 20px;
+color: #0563bb;
+float: left;
+width: 44px;
+height: 44px;
+background: #eef7ff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+transition: all 0.3s ease-in-out;
+}
   
-  .contact .info h4 {
-    padding: 0 0 0 60px;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #45505b;
-  }
+.contact h4 {
+padding: 0 0 0 60px;
+font-size: 22px;
+font-weight: 600;
+margin-bottom: 5px;
+color: #45505b;
+}
   
-  .contact .info p {
-    padding: 0 0 0 60px;
-    margin-bottom: 0;
-    font-size: 14px;
-    color: #728394;
-  }
+.contact p {
+padding: 0 0 0 60px;
+margin-bottom: 0;
+font-size: 14px;
+color: #728394;
+}
   
-  .contact .info .email, .contact .info .phone {
-    margin-top: 40px;
-  }
-  
-  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #0563bb;
-    color: #fff;
+.contact .email:hover i, .contact .address:hover i, .contact .phone:hover i {
+background: #0563bb;
+color: #fff;
+}
 
-  }
   #btn-last{
       background-color: rgb(226, 165, 165);
       color: black;

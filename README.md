@@ -1,4 +1,3 @@
-# CS50W - Web Programming with Python and JavaScript
-CS50w - Project0
+# My Portfolio
 
-Hi! I'm Ayomide Odukoya and this a portfolio webside I made in respect to the requirements for CS50w Project0. 
+To learn more about me click [here](hecodes.netlify.app)
